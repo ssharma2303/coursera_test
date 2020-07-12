@@ -1,0 +1,83 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(4, 4, 71);
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+/**header**/
+#header-nav {
+    background-color:gray;
+    border-radius: 0;
+    border:solid black;
+    height: 20mm;
+}
+.navbar-brand h1 {
+    font-family: 'Alegreya SC', sans-serif;
+    color: black;
+    font-size: 14mm;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding-top: 3mm;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#header-nav button{
+	margin-top: 20px;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+#nav-list{
+	margin-top:20px;
+}
+
+
+#nav-list a{
+    color: white;
+    border-top: 1px solid black;
+    background-color: black ;
+    font-size: 8mm;
+}
+
+#nav-list a:hover{
+	background: black;
+}
+
+/** End header **/
+
+
+/** Home page **/
+
+#main-content{
+	width:100%;
+	margin-bottom: 25px;
+}
+
+    h2{
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 30px; 
+    color: #24f7c2;
+    font-size: 12mm;
+}
+
+#chicken-tile, #fish-tile, #sushi-tile{
+	width: 100%;
+	background-color:black;
+	padding: 20px;
+    margin-bottom: 50px;
+    font-size: 5mm;
+
+}
+
+#chicken-tile h3, #fish-tile h3, #sushi-tile h3{
+    font-family: ;
+    font-weight: bold; 
+    font-size: 9mm;
+} 
